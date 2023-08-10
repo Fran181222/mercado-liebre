@@ -44,53 +44,13 @@
             </div>
         </header>
         <main>
-            <form action="" method="post" class="form-register">
-                <label for="nombreyapellido">Nombre y Apellido</label>
-                <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Franco Reyes">
-                
+            <form action="/login.html" method="POST" class="form-login">
                 <label for="nombre-usuario">Nombre de Usuario</label>
-                <input type="text" name="nombre-usuario" id="nombre-usuario" >
-                
-                <label for="fecha-nacimiento">Fecha de Nacimiento</label>
-                <input type="date" name="fecha-nacimiento">
-                
-                <label for="dom">Domicilio</label>
-                <input type="text" name="dom" id="dom">
-                
-                <label for="perfil-del-usuario">Perfil del Usuario</label>
-                <div class="elegir-perfil">
-                    <label for="perfil-del-usuario">Compra</label>
-                    <input type="radio" name="perfil-del-usuario" id="compra">
-                    <label for="perfil-del-usuario">Venta</label>
-                    <input type="radio" name="perfil-del-usuario" id="venta">
-                </div>
-
-                <label for="categorias-de-interes">Categorias de Interes</label>
-                <div class="elegir-categoria">
-                    <label for="categorias-de-interes">Electro</label>
-                    <input type="checkbox" name="categorias-de-interes" id="electro">
-                    <label for="categorias-de-interes">Moda</label>
-                    <input type="checkbox" name="categorias-de-interes" id="moda">
-                    <label for="categorias-de-interes">Hogar</label>
-                    <input type="checkbox" name="categorias-de-interes" id="hogar">
-                    <label for="categorias-de-interes">Juguetería</label>
-                    <input type="checkbox" name="categorias-de-interes" id="jugueteria">
-                    <label for="categorias-de-interes">Vida sana</label>
-                    <input type="checkbox" name="categorias-de-interes" id="vida-sana">
-                </div>
-                    
-                <label for="foto-usuario">Foto de Usuario</label>
-                <input type="file" name="foto-usuario" id="foto-usuario">
-
+                <input type="text" name="nombre-usuario" id="nombre-usuario">
                 <label for="pass">Contraseña</label>
                 <input type="password" name="pass" id="pass">
-                <label for="confirmar-pass">Confirmar Contraseña</label>
-                <input type="password" name="confirmar-pass" id="confirmar-pass">
-                
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
-
-            </form>
+                <button type="submit" class="boton-enviar-login"><a href="home.html">Enviar</a></button>
+            </form> 
         </main>
         <footer>
             <section class="footer-seccion">
